@@ -144,7 +144,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\Board.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\NextTetramino.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\Score.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\Tetramino.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\TetrisV2.cpp" />
+    <ClCompile Include="..\..\..\Downloads\test\tetris-SFML\Text.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\Board.h" />
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\NextTetramino.h" />
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\Score.h" />
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\Shapes.h" />
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\Tetramino.h" />
+    <ClInclude Include="..\..\..\Downloads\test\tetris-SFML\Text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
